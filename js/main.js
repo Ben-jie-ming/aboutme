@@ -93,3 +93,11 @@
 
 
 }());
+$(function(){
+	$("#bbbb li").on("mouseover",function(){
+		$("#fh5co-footer").css({zIndex:-1})
+	})
+	$("#bbbb li").on("mouseout",function(){
+		$("#fh5co-footer").css({zIndex:-0})
+	})
+})
