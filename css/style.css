@@ -452,5 +452,15 @@ figure {
     padding-bottom: 1em;
   }
 }
-
+.fh5co-social li{position: relative}
+.fh5co-social span{display: none;position: absolute;    left: 0px;
+  bottom: -10px;
+  z-index: 1;
+  border: 1px solid;
+  border-radius: 3px;
+  font-size: 12px;}
+.hove1:hover .hover1{display: block}
+.hove2:hover .hover2{display: block}
+.hove3:hover .hover3{display: block}
+.hove4:hover .hover4{display: block}
 /*# sourceMappingURL=style.css.map */
